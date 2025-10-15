@@ -11,7 +11,7 @@ Ray tracing simulates how light interacts with objects by tracing rays from a vi
 Each ray checks for intersections with scene geometry (e.g., spheres), determines lighting and shading at the hit point, and outputs a pixel color.
 
 <p align="center">
-  <img src="images/raytracing_concept.png" width="85%" alt="Ray tracing concept diagram showing camera rays hitting a scene through a viewport" />
+   <img src="images/image_2025-10-14_223237277.png" width="85%" alt="Ray tracing concept diagram showing camera rays hitting a scene through a viewport" />
 </p>
 
 ---
@@ -46,7 +46,7 @@ Each ray checks for intersections with scene geometry (e.g., spheres), determine
 ## 🎨 Rendered Output
 
 <p align="center">
-  <img src="images/final_render.png" width="85%" alt="Final rendered image showing multiple colored spheres and shadows on a green plane" />
+  <img src="images/image_2025-10-14_223325068.png" width="85%" alt="Final rendered image showing multiple colored spheres and shadows on a green plane" />
 </p>
 
 The image above demonstrates ray–sphere intersections, diffuse shading, and shadow rendering using a single light source.
