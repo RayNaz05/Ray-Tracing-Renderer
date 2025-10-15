@@ -61,7 +61,7 @@ If you have GCC installed, compile using:
 gcc src/*.c -lm -DMS2 -o raytracer.exe
 ```
 
-## 💡 The -DMS2 flag enables the Milestone 2 rendering mode.
+💡 The -DMS2 flag enables the Milestone 2 rendering mode.
 
 If you prefer using make:
 
