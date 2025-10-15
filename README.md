@@ -1,6 +1,6 @@
 # 🌌 Ray Tracing Renderer (C)
 
-A lightweight **CPU-based Ray Tracing Renderer** written in **C**, built as part of a university graphics programming course.  
+A lightweight CPU-based ray tracing engine built in C, demonstrating the core principles of computer graphics and lighting simulation. 
 The project demonstrates the fundamentals of **computer graphics**, including vectors, rays, lighting, shading, and anti-aliasing — all implemented from scratch without external graphics libraries.
 
 ---
@@ -53,7 +53,7 @@ The image above demonstrates ray–sphere intersections, diffuse shading, and sh
 
 ---
 
-## ⚙️ 2. Build the Program
+## ⚙️ . Build the Program
 
 If you have GCC installed, compile using:
 
@@ -67,7 +67,7 @@ If you prefer using make:
 
 make
 
-## 🖼️ 3. Run the Renderer
+## 🖼️ . Run the Renderer
 ``` bash
 raytracer.exe scene.txt output.ppm
 ```
@@ -78,23 +78,14 @@ output.ppm → is the rendered image output written in PPM format.
 
 After running, you’ll see a new file named output.ppm in the project folder.
 
-## 🌈 4. View the Output
+## 🌈 . View the Output
 
 You can open output.ppm in several ways:
 
--Windows: GIMP
- -or Paint.NET
-
--macOS/Linux:
-
--open output.ppm
-
-
--VS Code: install the Image Preview extension and open the file directly.
-
--Convert to PNG (optional):
-
--magick convert output.ppm output.png
+- **Windows:** [GIMP](https://www.gimp.org/) or [Paint.NET](https://www.getpaint.net/)
+- **macOS/Linux:** `open output.ppm`
+- **VS Code:** install the *Image Preview* extension and open the file directly.
+- **Convert to PNG (optional):** `magick convert output.ppm output.png`
 
 ## 📄 Scene File (scene.txt)
 
@@ -118,17 +109,4 @@ FFFFFF
 2.0 0.5 -6.0 0.8 1
 -1.5 0.3 -4.0 0.6 2
 ```
-## ⚖️ Academic Note
 
-This project was developed as part of a University of Alberta CMPUT course.
-Certain starter code and structure were provided by the teaching staff.
-This repository reflects my individual work and modifications on top of that foundation.
-
-## 📫 Author
-
-Rayhan nazeel
-🎓 University of Alberta — Computing Science
-📧 Rayhannazeel@outlook.com
-
-
----
