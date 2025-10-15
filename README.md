@@ -1,7 +1,7 @@
 # 🌌 Ray Tracing Renderer (C)
 
 A lightweight CPU-based ray tracing engine built in C, demonstrating the core principles of computer graphics and lighting simulation. 
-The project demonstrates the fundamentals of **computer graphics**, including vectors, rays, lighting, shading, and anti-aliasing — all implemented from scratch without external graphics libraries.
+The project demonstrates the fundamentals of **computer graphics**, including vectors, rays, lighting, shading, and anti-aliasing.
 
 ---
 
