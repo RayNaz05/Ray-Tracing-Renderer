@@ -53,12 +53,82 @@ The image above demonstrates ray–sphere intersections, diffuse shading, and sh
 
 ---
 
-## ⚙️ Build & Run
+## ⚙️ 2. Build the Program
 
-### Requirements
-- **C Compiler** (GCC or Clang)
-- **Make** (optional but recommended)
+If you have GCC installed, compile using:
 
-### Build
-```bash
+``` bash
+gcc src/*.c -lm -DMS2 -o raytracer.exe
+```
+
+## 💡 The -DMS2 flag enables the Milestone 2 rendering mode.
+
+If you prefer using make:
+
 make
+
+## 🖼️ 3. Run the Renderer
+``` bash
+raytracer.exe scene.txt output.ppm
+```
+
+scene.txt → defines the camera, lights, colors, and spheres in the scene.
+
+output.ppm → is the rendered image output written in PPM format.
+
+After running, you’ll see a new file named output.ppm in the project folder.
+
+## 🌈 4. View the Output
+
+You can open output.ppm in several ways:
+
+-Windows: GIMP
+ -or Paint.NET
+
+-macOS/Linux:
+
+-open output.ppm
+
+
+-VS Code: install the Image Preview extension and open the file directly.
+
+-Convert to PNG (optional):
+
+-magick convert output.ppm output.png
+
+## 📄 Scene File (scene.txt)
+
+scene.txt defines the scene configuration used by the renderer — including image size, camera setup, light position, and objects.
+It acts as an input script for the ray tracer, allowing different renders without changing the source code.
+
+Example:
+``` bash
+400 225
+2.0
+1.0
+2.0 5.0 -3.0 800.0
+4
+FF0000
+00FF00
+0000FF
+FFFFFF
+3
+3
+0.0 0.0 -5.0 1.0 0
+2.0 0.5 -6.0 0.8 1
+-1.5 0.3 -4.0 0.6 2
+```
+## ⚖️ Academic Note
+
+This project was developed as part of a University of Alberta CMPUT course.
+Certain starter code and structure were provided by the teaching staff.
+This repository reflects my individual work and modifications on top of that foundation.
+
+## 📫 Author
+
+Rayhan nazeel
+🎓 University of Alberta — Computing Science
+📧 Rayhannazeel@outlook.com
+
+
+---
